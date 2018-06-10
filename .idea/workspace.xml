@@ -2,70 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29b5343d-b007-4f26-acb8-4ceefe62fafa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/css/print/paper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/print/pdf.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/reveal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/reveal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/theme/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/theme/beige.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/theme/black.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/theme/blood.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/theme/league.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/theme/moon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/theme/night.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/theme/serif.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/theme/simple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/theme/sky.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/theme/solarized.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/theme/white.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo_rjug.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/reveal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/css/zenburn.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/league-gothic/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/js/classList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/js/head.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/highlight/highlight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/markdown/markdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/markdown/marked.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/multiplex/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/multiplex/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/multiplex/master.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/multiplex/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/notes-server/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/notes-server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/notes-server/notes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/notes/notes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/notes/notes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/print-pdf/print-pdf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/search/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/zoom-js/zoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phendzel/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phendzel/phendzel.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,8 +16,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+            <state relative-caret-position="-218">
+              <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -93,8 +30,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -125,6 +62,23 @@
             <path>
               <item name="aboutLastChangesInJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="aboutLastChangesInJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aboutLastChangesInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aboutLastChangesInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aboutLastChangesInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aboutLastChangesInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="print" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aboutLastChangesInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aboutLastChangesInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aboutLastChangesInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -230,12 +184,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528623795862</updated>
-      <workItem from="1528623797190" duration="309000" />
+      <workItem from="1528623797190" duration="561000" />
     </task>
+    <task id="LOCAL-00001" summary="Add Reveal.js libs">
+      <created>1528624282914</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528624282914</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="309000" />
+    <option name="totallyTimeSpent" value="561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-8" width="1319" height="784" extended-state="6" />
@@ -251,10 +213,10 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32972136" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -276,14 +238,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Reveal.js libs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Reveal.js libs" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugin/math/math.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -300,10 +259,17 @@
     <entry file="file://$PROJECT_DIR$/plugin/notes/notes.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        <state relative-caret-position="-218">
+          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
         </state>
       </provider>
     </entry>
