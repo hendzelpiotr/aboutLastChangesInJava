@@ -16,7 +16,6 @@
 
     <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/white.css" id="theme">
-
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
 
@@ -55,6 +54,436 @@
                     <img src="img/logo_rjug.jpg">
                 </p>
             </section>
+        </section>
+
+        <section>
+            <h1>Agenda</h1>
+            <p>
+            <ul>
+                <li>Ankieta publicznosci</li>
+                <li>Historyczne spojrzenie</li>
+                <li>Modularnosc</li>
+                <li>JShell</li>
+                <li>Zmiany w kolekcjach</li>
+                <li>Prywatne metody</li>
+                <li>Local variable type inference</li>
+                <li>Nowy proces releasowania Javy</li>
+            </ul>
+            </p>
+        </section>
+
+        <section>
+            <h1>Kto pracuje jako programista?</h1>
+        </section>
+
+        <section>
+            <h1>Kto pracuje jako programista Java?</h1>
+        </section>
+
+        <section>
+            <h1>Kto jest studentem?</h1>
+        </section>
+
+        <section>
+            <section>
+                <h1>Troche historii</h1>
+            </section>
+            <section>
+                <p>
+                    <img src="img/james.jpg"/>
+                </p>
+            </section>
+            <section>
+                <p>
+                <ul>
+                    <li>James Gosling, Mike Sheridan, Patrick Naughton</li>
+                    <li>Telewizja interaktywna</li>
+                    <li>Dąb, zieleń i kawa</li>
+                    <li>Smalltalk i C++</li>
+                    <li>Sun Microsystems i 1995r.</li>
+                    <li>"Write Once, Run Anywhere" (WORA)</li>
+                </ul>
+                </p>
+            </section>
+        </section>
+
+        <section>
+            <h2>Historia wersji</h2>
+            <p><img height="500" src="img/wersje.png"/></p>
+        </section>
+
+        <section>
+            <section>
+                <h1>Projekt Jigsaw, czyli modularnosc</h1>
+            </section>
+            <section>
+                <h2>Jigsaw?</h2>
+                <p>
+                <ul>
+                    <li>“Umbrella project”</li>
+                    <li>Java Platform Module System (JPMS)</li>
+                    <li>Dodanie modułów</li>
+                    <li>JDK i JRE w implementacji modularnej</li>
+                </ul>
+                </p>
+            </section>
+            <section>
+                <h2>Co to jest modul?</h2>
+                <p>
+                    Sposób organizacji kodu
+                </p>
+            </section>
+            <section>
+                <p>
+                    Moduły dodają nowy poziom grupowania do języka:
+                <ul>
+                    <li>klasa to pojemnik na pola i metody,</li>
+                    <li>pakiet to pojemnik na klasy oraz interfejsy,</li>
+                    <li>moduł to pojemnik na pakiety.</li>
+                </ul>
+                </p>
+            </section>
+            <section>
+                <p>
+                    <img src="img/widocznosc.png"/>
+                </p>
+            </section>
+            <section>
+                <p>
+                <pre><code class="hljs" data-trim contenteditable>
+---another-module
+|   |
+|   \---src
+|       |   module-info.java
+|       |
+|       \---com
+|           \---phendzel
+|               \---home
+|                       AnotherTest.java
+|
+\---first-module
+    |
+    \---src
+        |   module-info.java
+        |
+        \---com
+            \---phendzel
+                +---remote
+                |       NewAnotherTest.java
+                |
+                \---work
+                        Test.java
+            </code></pre>
+                </p>
+            </section>
+            <section>
+                <h2>Definicja modulu</h2>
+
+                <pre><code class="hljs" data-trim contenteditable>
+module first.module {
+    exports com.phendzel.work;
+    exports com.phendzel.remote;
+}
+
+module another.module {
+    requires first.module;
+}
+					</code></pre>
+            </section>
+            <section>
+                <h2>Nazewnictwo</h2>
+                <p>
+                <ul>
+                    <li>projektowy: guava, junit, spark.core</li>
+                    <li>odwrotny DNS: com.google.common, org.junit, ...</li>
+                </ul>
+                </p>
+                <p>
+                    <span class="fragment">
+                        <strong>Oficjalną rekomendacją jest używanie odwrotnych nazw DNS.</strong>
+                    </span>
+                </p>
+            </section>
+            <section>
+                <h2>Kompatybilnosc wsteczna?</h2>
+                <p>
+                <ul>
+                    <li>
+                        Rozwiązaniem zaproponowanym przez twórców Javy są automatyczne moduły. Java potraktuje zwykłe
+                        archiwum JAR jak moduł zbudowany wg następujących reguł:
+                        <ul>
+                            <li>wszystkie pakiety są publicznie dostępne,
+                            </li>
+                            <li>automatyczny moduł zależy od wszystkiego, co znajduje się w modulepath ORAZ WYJĄTKOWO
+                                także classpath (normalnie nie jest to dozwolone),
+                            </li>
+                            <li>nazwa modułu wyliczana jest z nazwy archiwum, np. phendzel.jar » phendzel.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                </p>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h1>JShell - Java Interpreter</h1>
+            </section>
+            <section>
+                <h2>Po co nam JShell?</h2>
+                <p>
+                <ul>
+                <span class="fragment"><li>
+                    Szybki podgląd wyniku kodu
+                    </li></span>
+                    <span class="fragment"><li>
+                    Brak wymaganej rekompilacji przy zmianie kodu
+                    </li></span>
+                    <span class="fragment"><li>
+                    Przydaje sie na prelekcjach :)
+                    </li></span>
+                </ul>
+                </p>
+            </section>
+            <section>
+                <h1>Live coding :)</h1>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h1>Zmiany w kolekcjach (immutability)</h1>
+            </section>
+            <section>
+                <h2>Immutable List</h2>
+                <p>< Java 9
+                <pre><code class="hljs" data-trim contenteditable>
+List< String > emptyList = new ArrayList<>();
+List< String > immutableList = Collections.unmodifiableList(emptyList);
+					</code></pre>
+                </p>
+                <p> Java 10
+                <pre><code class="hljs" data-trim contenteditable>
+List immutableList = List.of();
+List immutableList = List.of("one","two","three");
+					</code></pre>
+                </p>
+            </section>
+            <section>
+                <h2>Immutable Set</h2>
+                <p>< Java 9
+                <pre><code class="hljs" data-trim contenteditable>
+Set< String > emptySet = new HashSet<>();
+Set< String > immutableSet = Collections.unmodifiableSet(emptySet);
+					</code></pre>
+                </p>
+                <p> Java 10
+                <pre><code class="hljs" data-trim contenteditable>
+Set< String > immutableSet = Set.of();
+Set< String > immutableSet = Set.of("one","two","three");
+					</code></pre>
+                </p>
+            </section>
+            <section>
+                <h2>Immutable Map</h2>
+                <p>< Java 9
+                <pre><code class="hljs" data-trim contenteditable>
+Map< Integer,String > nonemptyMap = new HashMap<>();
+nonemptyMap.put(1,"one");
+nonemptyMap.put(2,"two");
+nonemptyMap.put(3,"three");
+Map< Integer,String > immutableNonEmptyMap = Collections.unmodifiableMap(nonemptyMap);
+					</code></pre>
+                </p>
+                <p> Java 10
+                <pre><code class="hljs" data-trim contenteditable>
+Map emptyImmutableMap = Map.of();
+Map nonemptyImmutableMap = Map.of(1, "one", 2, "two", 3, "three");
+					</code></pre>
+                </p>
+            </section>
+            <section>
+                <h1>Live coding :)</h1>
+            </section>
+        </section>
+
+        <section>
+            <section><h1>Prywatne metody w interfejsach</h1></section>
+            <section>
+                <h2>Java 8</h2>
+                <pre style="alignment: center"><code class="hljs" style="width: 1000px" data-trim>
+public interface ReportGeneratorJava8 {
+
+    void generateReport(String reportData, String schema);
+
+    default String getReportData(String reportSource) throws Exception {
+        String reportData = null;
+        if (null == reportSource) {
+            throw new Exception("reportSource can't be null....");
+        }
+        if (reportSource.equalsIgnoreCase("DB")) {
+            System.out.println("Reading the data from DB ....");
+            //logic to get the data from DB
+            reportData = "data from DB";
+        } else if (reportSource.equalsIgnoreCase("File")) {
+            System.out.println("Reading the data from FileSystem ....");
+            //logic to get the data from File
+            reportData = "data from File";
+        } else if (reportSource.equalsIgnoreCase("Cache")) {
+            System.out.println("Reading the data from Cache ....");
+            //logic to get the data from Cache
+            reportData = "data from Cache";
+        }
+        System.out.println("Formatting the data to create a common standard");
+
+        return reportData;
+    }
+}
+            </code></pre>
+            </section>
+            <section>
+                <h2>Java 9</h2>
+                <pre style="alignment: center"><code class="hljs" style="width: 1000px" data-trim>
+public interface ReportGeneratorJava9 {
+
+    void generateReport(String reportData, String schema);
+
+    private String getReportDataFromDB() {
+        System.out.println("Reading the data from DB ....");
+        //logic to get the data from DB
+        String reportData = "data from DB";
+        return formatData(reportData);
+    }
+
+    private String getReportDataFromFile() {
+        System.out.println("Reading the data from FileSystem ....");
+        //logic to get the data from File
+        String reportData = "data from File";
+        return formatData(reportData);
+    }
+
+    private String getReportDataFromCache() {
+        System.out.println("Reading the data from Cache ....");
+        //logic to get the data from Cach
+        String reportData = "data from Cache";
+        return formatData(reportData);
+    }
+
+    private String formatData(String reportData) {
+        System.out.println("Formatting the data to create a common standard");
+        //logic to format the data
+        return reportData;
+    }
+
+    default String getReportData(String reportSource) throws Exception {
+        String reportData = null;
+        if (null == reportSource) {
+            throw new Exception("reportSource can't be null....");
+        }
+        if (reportSource.equalsIgnoreCase("DB")) {
+            reportData = getReportDataFromDB();
+        } else if (reportSource.equalsIgnoreCase("File")) {
+            reportData = getReportDataFromFile();
+        } else if (reportSource.equalsIgnoreCase("Cache")) {
+            reportData = getReportDataFromCache();
+        }
+        return reportData;
+    }
+}
+            </code></pre>
+            </section>
+        </section>
+
+        <section>
+            <section><h1>Local variable type inference - var</h1></section>
+            <section>
+                <h2> < Java 10</h2>
+                <p>
+                <pre style="alignment: center"><code class="hljs" style="width: 1000px" data-trim>
+String greeting = "Hello world";
+ArrayList< String > messages = new ArrayList<>();
+HashMap< HashSet< String>, ArrayList< String>> map = new HashMap<>();
+            </code></pre>
+                </p>
+                <span class="fragment"><h2>Java 10</h2>
+                <p>
+                <pre style="alignment: center"><code class="hljs" style="width: 1000px" data-trim>
+var greeting = "Hello world";
+var messages = new ArrayList<>();
+var map = new HashMap<>();
+            </code></pre>
+                    </p>
+                </span>
+            </section>
+            <section>
+                <h1>Skad ten pomysl?</h1>
+            </section>
+            <section>
+                <h5>What do you think of the proposed Local Variable Type Inference feature overall?</h5>
+                <p><img src="img/wykres1.png"/></p>
+            </section>
+            <section>
+                <h5>Possible syntax options</h5>
+                <p><img src="img/wykres2.png"/></p>
+            </section>
+            <section>
+                <h2>Gdzie moge uzyc?</h2>
+                <p>
+                <ul>
+                    <span class="fragment"><li>Inicjalizacja zmiennych lokalnych</li></span>
+                    <span class="fragment"><li>Pętla for</li></span>
+                    <span class="fragment"><li>Nazwa zmiennej i metody</li></span>
+                </ul>
+                </p>
+            </section>
+            <section>
+                <h2>Gdzie nie moge uzyc?</h2>
+                <p>
+                <ul>
+                    <span class="fragment"><li>Parametry metod</li></span>
+                    <span class="fragment"><li>Parametry konstruktora</li></span>
+                    <span class="fragment"><li>Typ zwracany metody</li></span>
+                    <span class="fragment"><li>Pola klasy</li></span>
+                    <span class="fragment"><li>Try catch</li></span>
+                    <span class="fragment"><li>Jako nazwa klasy lub interfejsu</li></span>
+                    <span class="fragment"><li>Do inicjalizacji wartością null</li></span>
+                </ul>
+                </p>
+            </section>
+            <section>
+                <h1>Live coding :)</h1>
+            </section>
+        </section>
+
+        <section>
+            <section><h1>Nowy proces releasowania Javy</h1></section>
+            <section>
+                <h2>Co sie zmienilo?</h2>
+                <p>
+                <ul>
+                    <span class="fragment"><li>Feature release co 6 miesięcy</li></span>
+                    <span class="fragment"><li>Update release co 3 miesiące</li></span>
+                    <span class="fragment"><li>Wsparcie długoterminowe dla releasu wypadającego co 3 lata</li></span>
+                </ul>
+                </p>
+            </section>
+            <section>
+                <h2>Oracle Java SE Support Roadmap</h2>
+                <p>
+                    <img src="img/oracle.png"/>
+                </p>
+            </section>
+        </section>
+
+        <section>
+            <h1>Dziekuje za uwage!</h1>
+            <p>
+                Piotr Hendzel <br>
+                Java Developer <br>
+                https://twitter.com/PhendzelDev<br>
+                phendzel.dev@gmail.com
+            </p>
         </section>
     </div>
 
