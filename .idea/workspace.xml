@@ -1,7 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47ee8eb8-707e-4092-ac47-aa8cb54df513" name="Default" comment="" />
+    <list default="true" id="29b5343d-b007-4f26-acb8-4ceefe62fafa" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/css/print/paper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/print/pdf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/reveal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/reveal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/theme/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/theme/beige.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/theme/black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/theme/blood.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/theme/league.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/theme/moon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/theme/night.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/theme/serif.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/theme/simple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/theme/sky.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/theme/solarized.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/theme/white.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo_rjug.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/reveal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/css/zenburn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/league-gothic/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/js/classList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/js/head.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/js/html5shiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/highlight/highlight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/markdown/markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/markdown/marked.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/multiplex/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/multiplex/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/multiplex/master.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/multiplex/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/notes-server/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/notes-server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/notes-server/notes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/notes/notes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/notes/notes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/print-pdf/print-pdf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/search/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/zoom-js/zoom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phendzel/src.iml" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,21 +76,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            <state relative-caret-position="357">
+              <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -41,36 +110,44 @@
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="aboutLastChangesInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phendzel" type="462c0819:PsiDirectoryNode" />
+              <item name="aboutLastChangesInJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aboutLastChangesInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aboutLastChangesInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pihe\IdeaProjects\aboutLastChangesInJava" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -148,50 +225,49 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="47ee8eb8-707e-4092-ac47-aa8cb54df513" name="Default" comment="" />
-      <created>1528622164491</created>
+      <changelist id="29b5343d-b007-4f26-acb8-4ceefe62fafa" name="Default" comment="" />
+      <created>1528623795862</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1528622164491</updated>
-      <workItem from="1528622168755" duration="149000" />
-      <workItem from="1528622322717" duration="743000" />
+      <updated>1528623795862</updated>
+      <workItem from="1528623797190" duration="309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="892000" />
+    <option name="totallyTimeSpent" value="309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-8" width="1319" height="784" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="SBT Console" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SBT Console" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32972136" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533757" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,92 +277,42 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/phendzel/.gitignore" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/math/math.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/js/head.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/markdown/marked.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/notes/notes.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>groovy-2.4.14</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>phendzel</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
