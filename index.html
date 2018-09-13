@@ -58,39 +58,53 @@
 
         <section>
             <h1>Agenda</h1>
-            <p>
-            <ul>
-                <li>Ankieta publicznosci</li>
-                <li>Historyczne spojrzenie</li>
-                <li>Modularnosc</li>
-                <li>JShell</li>
-                <li>Zmiany w kolekcjach</li>
-                <li>Prywatne metody</li>
-                <li>Local variable type inference</li>
-                <li>Nowy proces releasowania Javy</li>
+            <ul style="font-size: 22px">
+                <li>Ankieta uczestnikow</li>
+                <li>Rys historyczny</li>
+                <li>Nowy proces releasowania</li>
+                <li>Java 9</li>
+                <ul>
+                    <li><strong>Modularnosc</strong></li>
+                    <li>JShell</li>
+                    <li>Prywatne metody w interfejsach</li>
+                    <li>Zmiany w kolekcjach</li>
+                </ul>
+                <li>Java 10</li>
+                <ul>
+                    <li><strong>Local variable type inference</strong></li>
+                </ul>
+                <li>Java 11</li>
+                <ul>
+                    <li>Co nowego?</li>
+                </ul>
             </ul>
-            </p>
-        </section>
-
-        <section>
-            <h1>Kto pracuje jako programista?</h1>
-        </section>
-
-        <section>
-            <h1>Kto pracuje jako programista Java?</h1>
-        </section>
-
-        <section>
-            <h1>Kto jest studentem?</h1>
         </section>
 
         <section>
             <section>
-                <h1>Troche historii</h1>
+                <h1>Ankieta</h1>
+            </section>
+
+            <section>
+                <h1>Czy jestes studentem?</h1>
+            </section>
+
+            <section>
+                <h1>Czy pracujesz jako programista?</h1>
+            </section>
+
+            <section>
+                <h1>Czy pracujesz jako programista Java?</h1>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h1>Rys historyczny</h1>
             </section>
             <section>
                 <p>
-                    <img src="img/james.jpg"/>
+                    <img src="img/goslingNaughtonSheridan.jpg"/>
                 </p>
             </section>
             <section>
@@ -105,25 +119,80 @@
                 </ul>
                 </p>
             </section>
-        </section>
-
-        <section>
-            <h2>Historia wersji</h2>
-            <p><img height="500" src="img/wersje.png"/></p>
-        </section>
-
-        <section>
             <section>
-                <h1>Projekt Jigsaw, czyli modularnosc</h1>
+                <p>Java Community Process & JCP Executive Committee</p>
             </section>
             <section>
-                <h2>Jigsaw?</h2>
+                <p>
+                    <img height="500" src="img/javaHistory.png">
+                </p>
+            </section>
+        </section>
+
+        <section>
+            <section><h1>Nowy proces releasowania Javy</h1></section>
+            <section>
+                <h2>Oracle Java SE Support Roadmap</h2>
+                <p>
+                    <img src="img/oracle.png"/>
+                </p>
+            </section>
+            <section>
+                <h2>Co sie zmienilo?</h2>
+                <p>
+                <ul>
+                    <span class="fragment"><li>Feature release co 6 miesięcy</li></span>
+                    <span class="fragment"><li>Update release co 3 miesiące</li></span>
+                    <span class="fragment"><li>Wsparcie długoterminowe dla releasu wypadającego co 3 lata</li></span>
+                </ul>
+                </p>
+            </section>
+            <section>
+                <h1>Feature Release</h1>
+                <ul>
+                    <li>Moze zawierac dowolny rodzaj funkcjonalnosci (nie tylko w stosunku do jezyka ale, np. do maszyny
+                        wirtualnej)
+                    </li>
+                    <li>Nowa funkcjonalnosc jest czescia feature releasu tylko wtedy kiedy prace nad nia zostaly
+                        zakonczone
+                    </li>
+                    <li>Feature release w marcu i wrzesniu co roku</li>
+                </ul>
+            </section>
+            <section>
+                <h1>Update Release</h1>
+                <ul>
+                    <li>Tylko i wylacznie poprawki bezpieczenstwa, poprawki bledow w nowych funkcjonalnosciach</li>
+                    <li>Kazdy feature release otrzyma 2 update'y przed kolejnym feature releasem</li>
+                    <li>Wydawany kwartalnie (styczen, kwiecien, lipiec, pazdziernik)</li>
+                </ul>
+            </section>
+            <section>
+                <h1>Long Time Support</h1>
+                <ul>
+                    <li>Co 3 lata zaczynajac od wrzesnia 2018</li>
+                    <li>Update'y dla wydania LTS beda dostepne przez conajmniej 3 lata (lub dluzej)</li>
+                </ul>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h1>Java 9</h1>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h1>Modularnosc</h1>
+            </section>
+            <section>
+                <h2>Projekt Jigsaw</h2>
                 <p>
                 <ul>
                     <li>“Umbrella project”</li>
                     <li>Java Platform Module System (JPMS)</li>
                     <li>Dodanie modułów</li>
-                    <li>JDK i JRE w implementacji modularnej</li>
                 </ul>
                 </p>
             </section>
@@ -206,22 +275,47 @@ module another.module {
             </section>
             <section>
                 <h2>Kompatybilnosc wsteczna?</h2>
+            </section>
+            <section>
+                <h2>Automatyczne moduly</h2>
                 <p>
                 <ul>
-                    <li>
-                        Rozwiązaniem zaproponowanym przez twórców Javy są automatyczne moduły. Java potraktuje zwykłe
-                        archiwum JAR jak moduł zbudowany wg następujących reguł:
-                        <ul>
-                            <li>wszystkie pakiety są publicznie dostępne,
-                            </li>
-                            <li>automatyczny moduł zależy od wszystkiego, co znajduje się w modulepath ORAZ WYJĄTKOWO
-                                także classpath (normalnie nie jest to dozwolone),
-                            </li>
-                            <li>nazwa modułu wyliczana jest z nazwy archiwum, np. phendzel.jar » phendzel.
-                            </li>
-                        </ul>
-                    </li>
+                    <li>"Tworzy" modul z istniejacego jar'a</li>
+                    <li>Nie wymaga zmian w pliku JAR</li>
+                    <li>Nazwa modulu wzieta z nazwy pliku JAR (zamiana "-" na ".", brak wersji)</li>
+                    <li>Eksportuje wszystkie pakiety</li>
+                    <li>Wymaga wszystkiego co dostepne w modulepath i wyjatkowo w classpath</li>
                 </ul>
+                </p>
+            </section>
+            <section>
+                <p>
+                    <img src="img/apocotokomu.jpg"/>
+                </p>
+            </section>
+            <section>
+                <ul>
+                    <li>No missing dependencies</li>
+                    <li>No cyclic dependencies</li>
+                    <li>No split packages</li>
+                </ul>
+            </section>
+            <section>
+                <p>
+                    JDK
+                </p>
+                <img src="img/goralodowa.jpg">
+            </section>
+            <section>
+                <p>Java 7</p>
+                <p>
+                    <img src="img/java7graph.png"/>
+                </p>
+            </section>
+            <section>
+                <p>Java 9</p>
+                <p>
+                    <img src="img/modulegraph.jpg"/>
                 </p>
             </section>
         </section>
@@ -244,63 +338,6 @@ module another.module {
                     Przydaje sie na prelekcjach :)
                     </li></span>
                 </ul>
-                </p>
-            </section>
-            <section>
-                <h1>Live coding :)</h1>
-            </section>
-        </section>
-
-        <section>
-            <section>
-                <h1>Zmiany w kolekcjach (immutability)</h1>
-            </section>
-            <section>
-                <h2>Immutable List</h2>
-                <p>< Java 9
-                <pre><code class="hljs" data-trim contenteditable>
-List< String > emptyList = new ArrayList<>();
-List< String > immutableList = Collections.unmodifiableList(emptyList);
-					</code></pre>
-                </p>
-                <p> Java 9
-                <pre><code class="hljs" data-trim contenteditable>
-List immutableList = List.of();
-List immutableList = List.of("one","two","three");
-					</code></pre>
-                </p>
-            </section>
-            <section>
-                <h2>Immutable Set</h2>
-                <p>< Java 9
-                <pre><code class="hljs" data-trim contenteditable>
-Set< String > emptySet = new HashSet<>();
-Set< String > immutableSet = Collections.unmodifiableSet(emptySet);
-					</code></pre>
-                </p>
-                <p> Java 9
-                <pre><code class="hljs" data-trim contenteditable>
-Set< String > immutableSet = Set.of();
-Set< String > immutableSet = Set.of("one","two","three");
-					</code></pre>
-                </p>
-            </section>
-            <section>
-                <h2>Immutable Map</h2>
-                <p>< Java 9
-                <pre><code class="hljs" data-trim contenteditable>
-Map< Integer,String > nonemptyMap = new HashMap<>();
-nonemptyMap.put(1,"one");
-nonemptyMap.put(2,"two");
-nonemptyMap.put(3,"three");
-Map< Integer,String > immutableNonEmptyMap = Collections.unmodifiableMap(nonemptyMap);
-					</code></pre>
-                </p>
-                <p> Java 9
-                <pre><code class="hljs" data-trim contenteditable>
-Map emptyImmutableMap = Map.of();
-Map nonemptyImmutableMap = Map.of(1, "one", 2, "two", 3, "three");
-					</code></pre>
                 </p>
             </section>
             <section>
@@ -396,6 +433,69 @@ public interface ReportGeneratorJava9 {
         </section>
 
         <section>
+            <section>
+                <h1>Zmiany w kolekcjach (immutability)</h1>
+            </section>
+            <section>
+                <h2>Immutable List</h2>
+                <p>< Java 9
+                <pre><code class="hljs" data-trim contenteditable>
+List< String > emptyList = new ArrayList<>();
+List< String > immutableList = Collections.unmodifiableList(emptyList);
+					</code></pre>
+                </p>
+                <p> Java 9
+                <pre><code class="hljs" data-trim contenteditable>
+List immutableList = List.of();
+List immutableList = List.of("one","two","three");
+					</code></pre>
+                </p>
+            </section>
+            <section>
+                <h2>Immutable Set</h2>
+                <p>< Java 9
+                <pre><code class="hljs" data-trim contenteditable>
+Set< String > emptySet = new HashSet<>();
+Set< String > immutableSet = Collections.unmodifiableSet(emptySet);
+					</code></pre>
+                </p>
+                <p> Java 9
+                <pre><code class="hljs" data-trim contenteditable>
+Set< String > immutableSet = Set.of();
+Set< String > immutableSet = Set.of("one","two","three");
+					</code></pre>
+                </p>
+            </section>
+            <section>
+                <h2>Immutable Map</h2>
+                <p>< Java 9
+                <pre><code class="hljs" data-trim contenteditable>
+Map< Integer,String > nonemptyMap = new HashMap<>();
+nonemptyMap.put(1,"one");
+nonemptyMap.put(2,"two");
+nonemptyMap.put(3,"three");
+Map< Integer,String > immutableNonEmptyMap = Collections.unmodifiableMap(nonemptyMap);
+					</code></pre>
+                </p>
+                <p> Java 9
+                <pre><code class="hljs" data-trim contenteditable>
+Map emptyImmutableMap = Map.of();
+Map nonemptyImmutableMap = Map.of(1, "one", 2, "two", 3, "three");
+					</code></pre>
+                </p>
+            </section>
+            <section>
+                <h1>Live coding :)</h1>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h1>Java 9</h1>
+            </section>
+        </section>
+
+        <section>
             <section><h1>Local variable type inference - var</h1></section>
             <section>
                 <h2> < Java 10</h2>
@@ -453,26 +553,6 @@ var map = new HashMap<>();
             </section>
             <section>
                 <h1>Live coding :)</h1>
-            </section>
-        </section>
-
-        <section>
-            <section><h1>Nowy proces releasowania Javy</h1></section>
-            <section>
-                <h2>Co sie zmienilo?</h2>
-                <p>
-                <ul>
-                    <span class="fragment"><li>Feature release co 6 miesięcy</li></span>
-                    <span class="fragment"><li>Update release co 3 miesiące</li></span>
-                    <span class="fragment"><li>Wsparcie długoterminowe dla releasu wypadającego co 3 lata</li></span>
-                </ul>
-                </p>
-            </section>
-            <section>
-                <h2>Oracle Java SE Support Roadmap</h2>
-                <p>
-                    <img src="img/oracle.png"/>
-                </p>
             </section>
         </section>
 
