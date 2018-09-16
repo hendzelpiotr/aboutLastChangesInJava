@@ -214,8 +214,34 @@
             </section>
             <section>
                 <p>
-                    <img src="img/widocznosc.png"/>
+                    Modyfikatory dostepu
                 </p>
+                <div style="display: flex">
+                    <div style="flex: 50%; padding: 10px; height: 300px">
+                        <p>
+                            JDK <9
+                        <ul>
+                            <li>public</li>
+                            <li>protected</li>
+                            <li>package-private</li>
+                            <li>private</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div style="flex: 50%; padding: 10px; height: 300px">
+                        <p>
+                            JDK >= 9
+                        <ul>
+                            <li>public to everyone</li>
+                            <li>public but only to friend modules</li>
+                            <li>public only within a module</li>
+                            <li>protected</li>
+                            <li>package-private</li>
+                            <li>private</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
             </section>
             <section>
                 <p>
@@ -548,6 +574,7 @@ var map = new HashMap<>();
                     <span class="fragment"><li>Try catch</li></span>
                     <span class="fragment"><li>Jako nazwa klasy lub interfejsu</li></span>
                     <span class="fragment"><li>Do inicjalizacji wartością null</li></span>
+                    <span class="fragment"><li>W lambdzie</li></span>
                 </ul>
                 </p>
             </section>
@@ -568,7 +595,7 @@ var map = new HashMap<>();
                 <ul>
                     <li>Local variable type inference - lambdy</li>
                     <li>Zmiany w Garbage Collector</li>
-                    <li>Usuniecie Javy EE i moduly CORBA z Javy SE i SDK</li>
+                    <li>Usuniecie Javy EE i modulu CORBA z Javy SE i SDK</li>
                 </ul>
             </section>
             <section>
