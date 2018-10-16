@@ -22,10 +22,33 @@
     <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
+
+    <style>
+        .watermark {
+            width: 283px;
+            height: 60px;
+            display: block;
+            position: relative;
+        }
+
+        .watermark::after {
+            content: "";
+            background: url("img/logo_jc.png");
+            opacity: 0.8;
+            top: 10px;
+            left: 10px;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+        }
+    </style>
 </head>
 
 <body>
 <div class="reveal">
+    <div class="watermark"></div>
+
     <div class="slides">
         <section>
             <h1>O tym co w Javie sie zmienilo</h1>
